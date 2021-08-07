@@ -1760,29 +1760,29 @@ Wire Wire Line
 Connection ~ 9150 2000
 Wire Wire Line
 	9150 2000 9600 2000
-Text GLabel 4000 5350 2    50   Input ~ 0
+Text GLabel 4000 6250 2    50   Input ~ 0
 BTN_R
-Text GLabel 4000 5450 2    50   Input ~ 0
+Text GLabel 4000 6450 2    50   Input ~ 0
 BTN_Y
-Text GLabel 4000 5550 2    50   Input ~ 0
-BTN_LS
-Text GLabel 4000 5750 2    50   Input ~ 0
-BTN_MS
-Text GLabel 4000 5650 2    50   Input ~ 0
-BTN_B
-Text GLabel 4000 5850 2    50   Input ~ 0
-BTN_X
-Text GLabel 4000 5950 2    50   Input ~ 0
-BTN_Z
-Text GLabel 4000 6950 2    50   Input ~ 0
-BTN_CL
-Text GLabel 4000 6850 2    50   Input ~ 0
-BTN_CU
-Text GLabel 4000 6750 2    50   Input ~ 0
-BTN_CD
-Text GLabel 4000 6650 2    50   Input ~ 0
-BTN_A
 Text GLabel 4000 6550 2    50   Input ~ 0
+BTN_LS
+Text GLabel 4000 6650 2    50   Input ~ 0
+BTN_MS
+Text GLabel 4000 5050 2    50   Input ~ 0
+BTN_B
+Text GLabel 4000 6950 2    50   Input ~ 0
+BTN_X
+Text GLabel 4000 6850 2    50   Input ~ 0
+BTN_Z
+Text GLabel 5400 7200 2    50   Input ~ 0
+BTN_CL
+Text GLabel 5400 7100 2    50   Input ~ 0
+BTN_CU
+Text GLabel 5400 7000 2    50   Input ~ 0
+BTN_CD
+Text GLabel 5400 6900 2    50   Input ~ 0
+BTN_A
+Text GLabel 5400 6800 2    50   Input ~ 0
 BTN_CR
 Text GLabel 4000 4050 2    50   Input ~ 0
 LED_DATA
@@ -1790,7 +1790,7 @@ Text GLabel 4000 4750 2    50   Input ~ 0
 BTN_RIGHT
 Text GLabel 4000 5250 2    50   Input ~ 0
 BTN_START
-Text GLabel 4000 4450 2    50   Input ~ 0
+Text GLabel 4000 6750 2    50   Input ~ 0
 BTN_UP
 Text GLabel 4000 4550 2    50   Input ~ 0
 BTN_MODX
