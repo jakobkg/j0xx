@@ -169,7 +169,7 @@ $EndComp
 Wire Wire Line
 	4000 6150 4100 6150
 $Comp
-L Connector:USB_C_Receptacle J1
+L j0xx-rescue:USB_C_Receptacle-Connector J1
 U 1 1 6109B170
 P 950 5150
 F 0 "J1" H 1057 6417 50  0000 C CNN
@@ -296,28 +296,28 @@ Wire Wire Line
 $Comp
 L Device:Resonator Y1
 U 1 1 610B3010
-P 950 2700
-F 0 "Y1" H 950 2948 50  0000 C CNN
-F 1 "Resonator" H 950 2857 50  0000 C CNN
-F 2 "Crystal:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm" H 925 2700 50  0001 C CNN
-F 3 "~" H 925 2700 50  0001 C CNN
-	1    950  2700
+P 1000 2600
+F 0 "Y1" H 1000 2848 50  0000 C CNN
+F 1 "Resonator" H 1000 2757 50  0000 C CNN
+F 2 "Crystal:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm" H 975 2600 50  0001 C CNN
+F 3 "~" H 975 2600 50  0001 C CNN
+	1    1000 2600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR09
 U 1 1 610B35B4
-P 950 2900
-F 0 "#PWR09" H 950 2650 50  0001 C CNN
-F 1 "GND" H 955 2727 50  0000 C CNN
-F 2 "" H 950 2900 50  0001 C CNN
-F 3 "" H 950 2900 50  0001 C CNN
-	1    950  2900
+P 1000 2800
+F 0 "#PWR09" H 1000 2550 50  0001 C CNN
+F 1 "GND" H 1005 2627 50  0000 C CNN
+F 2 "" H 1000 2800 50  0001 C CNN
+F 3 "" H 1000 2800 50  0001 C CNN
+	1    1000 2800
 	1    0    0    -1  
 $EndComp
-Text GLabel 800  2700 0    50   Input ~ 0
+Text GLabel 850  2600 0    50   Input ~ 0
 XTAL1
-Text GLabel 1100 2700 2    50   Input ~ 0
+Text GLabel 1150 2600 2    50   Input ~ 0
 XTAL2
 $Comp
 L Device:C C21
@@ -402,7 +402,7 @@ Connection ~ 950  3400
 Wire Wire Line
 	950  3400 800  3400
 Text GLabel 1550 5250 2    50   Input ~ 0
-GCCDATA
+GCCD3.3v
 $Comp
 L power:+3.3V #PWR024
 U 1 1 610BA5FD
@@ -417,7 +417,7 @@ $EndComp
 Wire Wire Line
 	1550 6150 1700 6150
 Text GLabel 1550 5850 2    50   Input ~ 0
-GCCDATA
+GCCD3.3v
 $Comp
 L power:+3.3V #PWR022
 U 1 1 610BBA9B
@@ -1774,27 +1774,27 @@ Text GLabel 4000 6950 2    50   Input ~ 0
 BTN_X
 Text GLabel 4000 6850 2    50   Input ~ 0
 BTN_Z
-Text GLabel 5400 7200 2    50   Input ~ 0
+Text GLabel 4000 5950 2    50   Input ~ 0
 BTN_CL
-Text GLabel 5400 7100 2    50   Input ~ 0
+Text GLabel 4000 4450 2    50   Input ~ 0
 BTN_CU
-Text GLabel 5400 7000 2    50   Input ~ 0
+Text GLabel 4000 4550 2    50   Input ~ 0
 BTN_CD
-Text GLabel 5400 6900 2    50   Input ~ 0
+Text GLabel 4000 4650 2    50   Input ~ 0
 BTN_A
-Text GLabel 5400 6800 2    50   Input ~ 0
+Text GLabel 4000 4950 2    50   Input ~ 0
 BTN_CR
-Text GLabel 4000 4050 2    50   Input ~ 0
+Text GLabel 4550 3850 2    50   Input ~ 0
 LED_DATA
 Text GLabel 4000 4750 2    50   Input ~ 0
 BTN_RIGHT
-Text GLabel 4000 5250 2    50   Input ~ 0
+Text GLabel 4000 5450 2    50   Input ~ 0
 BTN_START
 Text GLabel 4000 6750 2    50   Input ~ 0
 BTN_UP
-Text GLabel 4000 4550 2    50   Input ~ 0
+Text GLabel 4000 5250 2    50   Input ~ 0
 BTN_MODX
-Text GLabel 4000 4650 2    50   Input ~ 0
+Text GLabel 4000 5350 2    50   Input ~ 0
 BTN_MODY
 Text GLabel 4000 4150 2    50   Input ~ 0
 BTN_L
@@ -1802,4 +1802,194 @@ Text GLabel 4000 4250 2    50   Input ~ 0
 BTN_LEFT
 Text GLabel 4000 4350 2    50   Input ~ 0
 BTN_DOWN
+$Comp
+L Transistor_FET:BSS138 Q1
+U 1 1 6111F573
+P 5750 7100
+F 0 "Q1" V 5999 7100 50  0000 C CNN
+F 1 "BSS138" V 6090 7100 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5950 7025 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 5750 7100 50  0001 L CNN
+	1    5750 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 61124672
+P 5450 7000
+F 0 "R7" V 5350 6950 50  0000 L CNN
+F 1 "10k" V 5450 6950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5380 7000 50  0001 C CNN
+F 3 "~" H 5450 7000 50  0001 C CNN
+	1    5450 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 61125449
+P 6050 7000
+F 0 "R8" V 5950 6950 50  0000 L CNN
+F 1 "10k" V 6050 6950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5980 7000 50  0001 C CNN
+F 3 "~" H 6050 7000 50  0001 C CNN
+	1    6050 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 61127CDD
+P 5450 6700
+F 0 "#PWR0101" H 5450 6550 50  0001 C CNN
+F 1 "+3.3V" H 5465 6873 50  0000 C CNN
+F 2 "" H 5450 6700 50  0001 C CNN
+F 3 "" H 5450 6700 50  0001 C CNN
+	1    5450 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 6700 5450 6800
+Wire Wire Line
+	5750 6900 5750 6800
+Wire Wire Line
+	5750 6800 5450 6800
+Connection ~ 5450 6800
+Wire Wire Line
+	5450 6800 5450 6850
+$Comp
+L power:+5V #PWR0102
+U 1 1 61144A6E
+P 6050 6700
+F 0 "#PWR0102" H 6050 6550 50  0001 C CNN
+F 1 "+5V" H 6065 6873 50  0000 C CNN
+F 2 "" H 6050 6700 50  0001 C CNN
+F 3 "" H 6050 6700 50  0001 C CNN
+	1    6050 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 6700 6050 6850
+Text GLabel 6150 7200 2    50   Input ~ 0
+GCCD5v
+Wire Wire Line
+	6150 7200 6050 7200
+Wire Wire Line
+	6050 7200 6050 7150
+Connection ~ 6050 7200
+Wire Wire Line
+	6050 7200 5950 7200
+Text GLabel 5350 7200 0    50   Input ~ 0
+GCCD3.3v
+Wire Wire Line
+	5350 7200 5450 7200
+Wire Wire Line
+	5450 7200 5450 7150
+Connection ~ 5450 7200
+Wire Wire Line
+	5450 7200 5550 7200
+Text Notes 5400 6400 0    50   ~ 0
+Logic level shifter
+Text Notes 700  3250 0    50   ~ 0
+Reset switch
+Text GLabel 4000 4050 2    50   Input ~ 0
+GCCD5v
+$Comp
+L Device:C C23
+U 1 1 612446BB
+P 6150 2800
+F 0 "C23" H 6150 2900 50  0000 L CNN
+F 1 "0.1u" H 6150 2700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6188 2650 50  0001 C CNN
+F 3 "~" H 6150 2800 50  0001 C CNN
+	1    6150 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2650 6150 2650
+Wire Wire Line
+	5950 2950 6150 2950
+Wire Wire Line
+	6150 2650 6350 2650
+Connection ~ 6150 2650
+Wire Wire Line
+	6150 2950 6350 2950
+Connection ~ 6150 2950
+$Comp
+L Device:C C24
+U 1 1 612446C7
+P 6350 2800
+F 0 "C24" H 6350 2900 50  0000 L CNN
+F 1 "0.1u" H 6350 2700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6388 2650 50  0001 C CNN
+F 3 "~" H 6350 2800 50  0001 C CNN
+	1    6350 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C28
+U 1 1 612446EB
+P 7150 2800
+F 0 "C28" H 7150 2900 50  0000 L CNN
+F 1 "0.1u" H 7150 2700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7188 2650 50  0001 C CNN
+F 3 "~" H 7150 2800 50  0001 C CNN
+	1    7150 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 6950 2950
+Wire Wire Line
+	6950 2950 7150 2950
+Connection ~ 6950 2650
+Wire Wire Line
+	6950 2650 7150 2650
+Wire Wire Line
+	6750 2950 6950 2950
+Wire Wire Line
+	6750 2650 6950 2650
+$Comp
+L Device:C C27
+U 1 1 612446DF
+P 6950 2800
+F 0 "C27" H 6950 2900 50  0000 L CNN
+F 1 "0.1u" H 6950 2700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6988 2650 50  0001 C CNN
+F 3 "~" H 6950 2800 50  0001 C CNN
+	1    6950 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C26
+U 1 1 612446D9
+P 6750 2800
+F 0 "C26" H 6750 2900 50  0000 L CNN
+F 1 "0.1u" H 6750 2700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6788 2650 50  0001 C CNN
+F 3 "~" H 6750 2800 50  0001 C CNN
+	1    6750 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 6750 2650
+Connection ~ 6350 2650
+Connection ~ 6750 2950
+Connection ~ 6350 2950
+Wire Wire Line
+	6550 2950 6750 2950
+Wire Wire Line
+	6350 2950 6550 2950
+Connection ~ 6550 2950
+Wire Wire Line
+	6550 2650 6750 2650
+Wire Wire Line
+	6350 2650 6550 2650
+Connection ~ 6550 2650
+$Comp
+L Device:C C25
+U 1 1 612446CD
+P 6550 2800
+F 0 "C25" H 6550 2900 50  0000 L CNN
+F 1 "0.1u" H 6550 2700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6588 2650 50  0001 C CNN
+F 3 "~" H 6550 2800 50  0001 C CNN
+	1    6550 2800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
