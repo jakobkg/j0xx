@@ -443,7 +443,7 @@ U 1 1 610D1004
 P 1000 1800
 F 0 "SW1" H 1000 2085 50  0000 C CNN
 F 1 "SW_Push" H 1000 1994 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1000 2000 50  0001 C CNN
+F 2 "mx+choc_socket:MX+Choc_socket" H 1000 2000 50  0001 C CNN
 F 3 "~" H 1000 2000 50  0001 C CNN
 	1    1000 1800
 	1    0    0    -1  
@@ -473,7 +473,7 @@ U 1 1 610E1857
 P 1900 1800
 F 0 "SW2" H 1900 2085 50  0000 C CNN
 F 1 "SW_Push" H 1900 1994 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1900 2000 50  0001 C CNN
+F 2 "mx+choc_socket:MX+Choc_socket" H 1900 2000 50  0001 C CNN
 F 3 "~" H 1900 2000 50  0001 C CNN
 	1    1900 1800
 	1    0    0    -1  
@@ -501,7 +501,7 @@ U 1 1 610E222F
 P 2850 1800
 F 0 "SW3" H 2850 2085 50  0000 C CNN
 F 1 "SW_Push" H 2850 1994 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2850 2000 50  0001 C CNN
+F 2 "mx+choc_socket:MX+Choc_socket" H 2850 2000 50  0001 C CNN
 F 3 "~" H 2850 2000 50  0001 C CNN
 	1    2850 1800
 	1    0    0    -1  
@@ -1774,9 +1774,9 @@ Text GLabel 4000 6950 2    50   Input ~ 0
 BTN_X
 Text GLabel 4000 6850 2    50   Input ~ 0
 BTN_Z
-Text GLabel 4800 5800 2    50   Input ~ 0
+Text GLabel 4000 5950 2    50   Input ~ 0
 BTN_CL
-Text GLabel 4800 5700 2    50   Input ~ 0
+Text GLabel 4000 4450 2    50   Input ~ 0
 BTN_CU
 Text GLabel 4000 4550 2    50   Input ~ 0
 BTN_CD

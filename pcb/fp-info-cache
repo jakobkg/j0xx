@@ -1,4 +1,4 @@
-18626848870905941
+18628477383039750
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82038,4 +82038,11 @@ Varistor, diameter 21.5mm, width 11.4mm, pitch 10mm
 varistor SIOV
 0
 2
+2
+mx+choc_socket
+MX+Choc_socket
+MX-style and Choc-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket,choc,hotswap
+0
+4
 2

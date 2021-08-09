@@ -443,7 +443,7 @@ U 1 1 610D1004
 P 1000 1800
 F 0 "SW1" H 1000 2085 50  0000 C CNN
 F 1 "SW_Push" H 1000 1994 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1000 2000 50  0001 C CNN
+F 2 "mx+choc_socket:MX+Choc_socket" H 1000 2000 50  0001 C CNN
 F 3 "~" H 1000 2000 50  0001 C CNN
 	1    1000 1800
 	1    0    0    -1  
@@ -473,7 +473,7 @@ U 1 1 610E1857
 P 1900 1800
 F 0 "SW2" H 1900 2085 50  0000 C CNN
 F 1 "SW_Push" H 1900 1994 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 1900 2000 50  0001 C CNN
+F 2 "mx+choc_socket:MX+Choc_socket" H 1900 2000 50  0001 C CNN
 F 3 "~" H 1900 2000 50  0001 C CNN
 	1    1900 1800
 	1    0    0    -1  
@@ -501,7 +501,7 @@ U 1 1 610E222F
 P 2850 1800
 F 0 "SW3" H 2850 2085 50  0000 C CNN
 F 1 "SW_Push" H 2850 1994 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2850 2000 50  0001 C CNN
+F 2 "mx+choc_socket:MX+Choc_socket" H 2850 2000 50  0001 C CNN
 F 3 "~" H 2850 2000 50  0001 C CNN
 	1    2850 1800
 	1    0    0    -1  
@@ -527,7 +527,7 @@ U 1 1 610EAE49
 P 3800 1800
 F 0 "SW4" H 3800 2085 50  0000 C CNN
 F 1 "SW_Push" H 3800 1994 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3800 2000 50  0001 C CNN
+F 2 "mx+choc_socket:MX+Choc_socket" H 3800 2000 50  0001 C CNN
 F 3 "~" H 3800 2000 50  0001 C CNN
 	1    3800 1800
 	1    0    0    -1  
@@ -594,7 +594,7 @@ U 1 1 610FEE31
 P 5700 1800
 F 0 "SW5" H 5700 2085 50  0000 C CNN
 F 1 "SW_Push" H 5700 1994 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5700 2000 50  0001 C CNN
+F 2 "mx+choc_socket:MX+Choc_socket" H 5700 2000 50  0001 C CNN
 F 3 "~" H 5700 2000 50  0001 C CNN
 	1    5700 1800
 	1    0    0    -1  
@@ -650,7 +650,7 @@ U 1 1 61127D44
 P 7400 1800
 F 0 "SW6" H 7400 2085 50  0000 C CNN
 F 1 "SW_Push" H 7400 1994 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7400 2000 50  0001 C CNN
+F 2 "mx+choc_socket:MX+Choc_socket" H 7400 2000 50  0001 C CNN
 F 3 "~" H 7400 2000 50  0001 C CNN
 	1    7400 1800
 	1    0    0    -1  
@@ -678,7 +678,7 @@ U 1 1 61127D53
 P 8350 1800
 F 0 "SW7" H 8350 2085 50  0000 C CNN
 F 1 "SW_Push" H 8350 1994 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8350 2000 50  0001 C CNN
+F 2 "mx+choc_socket:MX+Choc_socket" H 8350 2000 50  0001 C CNN
 F 3 "~" H 8350 2000 50  0001 C CNN
 	1    8350 1800
 	1    0    0    -1  
@@ -704,7 +704,7 @@ U 1 1 61127D61
 P 9300 1800
 F 0 "SW8" H 9300 2085 50  0000 C CNN
 F 1 "SW_Push" H 9300 1994 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9300 2000 50  0001 C CNN
+F 2 "mx+choc_socket:MX+Choc_socket" H 9300 2000 50  0001 C CNN
 F 3 "~" H 9300 2000 50  0001 C CNN
 	1    9300 1800
 	1    0    0    -1  
@@ -752,7 +752,7 @@ U 1 1 61127D7F
 P 10250 1800
 F 0 "SW9" H 10250 2085 50  0000 C CNN
 F 1 "SW_Push" H 10250 1994 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 10250 2000 50  0001 C CNN
+F 2 "mx+choc_socket:MX+Choc_socket" H 10250 2000 50  0001 C CNN
 F 3 "~" H 10250 2000 50  0001 C CNN
 	1    10250 1800
 	1    0    0    -1  
@@ -804,7 +804,7 @@ U 1 1 61154D84
 P 7300 3650
 F 0 "SW10" H 7300 3935 50  0000 C CNN
 F 1 "SW_Push" H 7300 3844 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7300 3850 50  0001 C CNN
+F 2 "mx+choc_socket:MX+Choc_socket" H 7300 3850 50  0001 C CNN
 F 3 "~" H 7300 3850 50  0001 C CNN
 	1    7300 3650
 	1    0    0    -1  
@@ -832,7 +832,7 @@ U 1 1 61154D93
 P 8250 3650
 F 0 "SW11" H 8250 3935 50  0000 C CNN
 F 1 "SW_Push" H 8250 3844 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8250 3850 50  0001 C CNN
+F 2 "mx+choc_socket:MX+Choc_socket" H 8250 3850 50  0001 C CNN
 F 3 "~" H 8250 3850 50  0001 C CNN
 	1    8250 3650
 	1    0    0    -1  
@@ -858,7 +858,7 @@ U 1 1 61154DA1
 P 9200 3650
 F 0 "SW12" H 9200 3935 50  0000 C CNN
 F 1 "SW_Push" H 9200 3844 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9200 3850 50  0001 C CNN
+F 2 "mx+choc_socket:MX+Choc_socket" H 9200 3850 50  0001 C CNN
 F 3 "~" H 9200 3850 50  0001 C CNN
 	1    9200 3650
 	1    0    0    -1  
@@ -906,7 +906,7 @@ U 1 1 61154DBF
 P 10150 3650
 F 0 "SW13" H 10150 3935 50  0000 C CNN
 F 1 "SW_Push" H 10150 3844 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 10150 3850 50  0001 C CNN
+F 2 "mx+choc_socket:MX+Choc_socket" H 10150 3850 50  0001 C CNN
 F 3 "~" H 10150 3850 50  0001 C CNN
 	1    10150 3650
 	1    0    0    -1  
@@ -994,7 +994,7 @@ U 1 1 611ACA7D
 P 5450 4650
 F 0 "SW14" H 5450 4935 50  0000 C CNN
 F 1 "SW_Push" H 5450 4844 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5450 4850 50  0001 C CNN
+F 2 "mx+choc_socket:MX+Choc_socket" H 5450 4850 50  0001 C CNN
 F 3 "~" H 5450 4850 50  0001 C CNN
 	1    5450 4650
 	1    0    0    -1  
@@ -1022,7 +1022,7 @@ U 1 1 611ACA8C
 P 6400 4650
 F 0 "SW15" H 6400 4935 50  0000 C CNN
 F 1 "SW_Push" H 6400 4844 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6400 4850 50  0001 C CNN
+F 2 "mx+choc_socket:MX+Choc_socket" H 6400 4850 50  0001 C CNN
 F 3 "~" H 6400 4850 50  0001 C CNN
 	1    6400 4650
 	1    0    0    -1  
@@ -1102,7 +1102,7 @@ U 1 1 611CDB45
 P 6250 6000
 F 0 "SW16" H 6250 6285 50  0000 C CNN
 F 1 "SW_Push" H 6250 6194 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6250 6200 50  0001 C CNN
+F 2 "mx+choc_socket:MX+Choc_socket" H 6250 6200 50  0001 C CNN
 F 3 "~" H 6250 6200 50  0001 C CNN
 	1    6250 6000
 	1    0    0    -1  
@@ -1130,7 +1130,7 @@ U 1 1 611CDB54
 P 7200 6000
 F 0 "SW17" H 7200 6285 50  0000 C CNN
 F 1 "SW_Push" H 7200 6194 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7200 6200 50  0001 C CNN
+F 2 "mx+choc_socket:MX+Choc_socket" H 7200 6200 50  0001 C CNN
 F 3 "~" H 7200 6200 50  0001 C CNN
 	1    7200 6000
 	1    0    0    -1  
@@ -1156,7 +1156,7 @@ U 1 1 611CDB62
 P 8150 6000
 F 0 "SW18" H 8150 6285 50  0000 C CNN
 F 1 "SW_Push" H 8150 6194 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8150 6200 50  0001 C CNN
+F 2 "mx+choc_socket:MX+Choc_socket" H 8150 6200 50  0001 C CNN
 F 3 "~" H 8150 6200 50  0001 C CNN
 	1    8150 6000
 	1    0    0    -1  
@@ -1202,7 +1202,7 @@ U 1 1 611CDB7D
 P 9100 6000
 F 0 "SW19" H 9100 6285 50  0000 C CNN
 F 1 "SW_Push" H 9100 6194 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9100 6200 50  0001 C CNN
+F 2 "mx+choc_socket:MX+Choc_socket" H 9100 6200 50  0001 C CNN
 F 3 "~" H 9100 6200 50  0001 C CNN
 	1    9100 6000
 	1    0    0    -1  
@@ -1282,7 +1282,7 @@ U 1 1 61200F3C
 P 10050 6000
 F 0 "SW20" H 10050 6285 50  0000 C CNN
 F 1 "SW_Push" H 10050 6194 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 10050 6200 50  0001 C CNN
+F 2 "mx+choc_socket:MX+Choc_socket" H 10050 6200 50  0001 C CNN
 F 3 "~" H 10050 6200 50  0001 C CNN
 	1    10050 6000
 	1    0    0    -1  
