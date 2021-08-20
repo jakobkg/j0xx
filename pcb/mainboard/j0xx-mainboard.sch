@@ -686,4 +686,23 @@ Wire Wire Line
 Connection ~ 6850 1250
 Wire Wire Line
 	6850 1250 6950 1250
+Wire Wire Line
+	7150 1250 7350 1250
+Wire Wire Line
+	7350 1250 7350 1200
+Wire Wire Line
+	7350 850  7150 850 
+Wire Wire Line
+	7350 900  7350 850 
+$Comp
+L Device:C C7
+U 1 1 611BEE24
+P 7350 1050
+F 0 "C7" H 7350 1150 50  0000 L CNN
+F 1 "0.1u" H 7350 950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7388 900 50  0001 C CNN
+F 3 "~" H 7350 1050 50  0001 C CNN
+	1    7350 1050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
