@@ -19,7 +19,7 @@ U 1 1 6108EA22
 P 5700 3400
 F 0 "U1" H 6050 1550 50  0000 C CNN
 F 1 "ATmega32U4-AU" H 6100 1450 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm" H 5700 3400 50  0001 C CIN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 5700 3400 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 5700 3400 50  0001 C CNN
 F 4 "C112161" H 5700 3400 50  0001 C CNN "LCSC"
 	1    5700 3400
@@ -422,35 +422,35 @@ NoConn ~ 2000 2900
 NoConn ~ 2000 3200
 NoConn ~ 2000 3500
 NoConn ~ 2000 3600
-Text GLabel 6300 4500 2    50   Input ~ 0
-BTN_R
-Text GLabel 6300 4400 2    50   Input ~ 0
-BTN_Y
-Text GLabel 6300 4300 2    50   Input ~ 0
-BTN_LS
-Text GLabel 6300 4100 2    50   Input ~ 0
-BTN_MS
 Text GLabel 6300 2900 2    50   Input ~ 0
-BTN_B
+BTN_R
 Text GLabel 6300 4800 2    50   Input ~ 0
-BTN_X
+BTN_Y
 Text GLabel 6300 4700 2    50   Input ~ 0
-BTN_Z
-Text GLabel 6300 3800 2    50   Input ~ 0
-BTN_CL
+BTN_LS
+Text GLabel 6300 4600 2    50   Input ~ 0
+BTN_MS
 Text GLabel 6300 2300 2    50   Input ~ 0
-BTN_CU
+BTN_B
 Text GLabel 6300 2400 2    50   Input ~ 0
-BTN_CD
+BTN_X
 Text GLabel 6300 2500 2    50   Input ~ 0
+BTN_Z
+Text GLabel 6300 3400 2    50   Input ~ 0
+BTN_CL
+Text GLabel 6300 3600 2    50   Input ~ 0
+BTN_CU
+Text GLabel 6300 3500 2    50   Input ~ 0
+BTN_CD
+Text GLabel 6300 3700 2    50   Input ~ 0
 BTN_A
-Text GLabel 6300 2800 2    50   Input ~ 0
+Text GLabel 6300 3800 2    50   Input ~ 0
 BTN_CR
 Text GLabel 6300 2600 2    50   Input ~ 0
 BTN_RIGHT
 Text GLabel 6300 3300 2    50   Input ~ 0
 BTN_START
-Text GLabel 6300 4600 2    50   Input ~ 0
+Text GLabel 6300 2800 2    50   Input ~ 0
 BTN_UP
 Text GLabel 6300 3100 2    50   Input ~ 0
 BTN_MODX
@@ -568,10 +568,10 @@ $EndComp
 Wire Wire Line
 	6850 1300 6850 1250
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 611B39FF
 P 6850 1300
-F 0 "#PWR?" H 6850 1050 50  0001 C CNN
+F 0 "#PWR0101" H 6850 1050 50  0001 C CNN
 F 1 "GND" H 6855 1127 50  0000 C CNN
 F 2 "" H 6850 1300 50  0001 C CNN
 F 3 "" H 6850 1300 50  0001 C CNN
@@ -647,10 +647,10 @@ F 3 "" H 6850 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0102
 U 1 1 611C5E81
 P 5700 1500
-F 0 "#PWR?" H 5700 1350 50  0001 C CNN
+F 0 "#PWR0102" H 5700 1350 50  0001 C CNN
 F 1 "+5V" H 5715 1673 50  0000 C CNN
 F 2 "" H 5700 1500 50  0001 C CNN
 F 3 "" H 5700 1500 50  0001 C CNN
@@ -705,4 +705,120 @@ F 3 "~" H 7350 1050 50  0001 C CNN
 	1    7350 1050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6350 1250 6550 1250
+Wire Wire Line
+	6350 1250 6350 1200
+Wire Wire Line
+	6550 850  6350 850 
+Wire Wire Line
+	6350 900  6350 850 
+$Comp
+L Device:C C8
+U 1 1 61237907
+P 6350 1050
+F 0 "C8" H 6350 1150 50  0000 L CNN
+F 1 "0.1u" H 6350 950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6388 900 50  0001 C CNN
+F 3 "~" H 6350 1050 50  0001 C CNN
+	1    6350 1050
+	1    0    0    -1  
+$EndComp
+Connection ~ 6550 850 
+Connection ~ 6550 1250
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 612408C6
+P 8400 3400
+F 0 "J4" H 8480 3442 50  0000 L CNN
+F 1 "Conn_01x01" H 8480 3351 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8400 3400 50  0001 C CNN
+F 3 "~" H 8400 3400 50  0001 C CNN
+	1    8400 3400
+	1    0    0    -1  
+$EndComp
+Text GLabel 8200 3400 0    50   Input ~ 0
+BTN_START
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 612419D3
+P 8400 3100
+F 0 "J3" H 8480 3092 50  0000 L CNN
+F 1 "Conn_01x02" H 8480 3001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8400 3100 50  0001 C CNN
+F 3 "~" H 8400 3100 50  0001 C CNN
+	1    8400 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J5
+U 1 1 61243789
+P 8400 3800
+F 0 "J5" H 8480 3842 50  0000 L CNN
+F 1 "Conn_01x05" H 8480 3751 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 8400 3800 50  0001 C CNN
+F 3 "~" H 8400 3800 50  0001 C CNN
+	1    8400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J6
+U 1 1 61244495
+P 8400 4500
+F 0 "J6" H 8480 4492 50  0000 L CNN
+F 1 "Conn_01x08" H 8480 4401 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 8400 4500 50  0001 C CNN
+F 3 "~" H 8400 4500 50  0001 C CNN
+	1    8400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 6124D075
+P 8400 2700
+F 0 "J2" H 8480 2692 50  0000 L CNN
+F 1 "Conn_01x04" H 8480 2601 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8400 2700 50  0001 C CNN
+F 3 "~" H 8400 2700 50  0001 C CNN
+	1    8400 2700
+	1    0    0    -1  
+$EndComp
+Text GLabel 8200 2600 0    50   Input ~ 0
+BTN_L
+Text GLabel 8200 2700 0    50   Input ~ 0
+BTN_LEFT
+Text GLabel 8200 2800 0    50   Input ~ 0
+BTN_DOWN
+Text GLabel 8200 2900 0    50   Input ~ 0
+BTN_RIGHT
+Text GLabel 8200 3100 0    50   Input ~ 0
+BTN_MODX
+Text GLabel 8200 3200 0    50   Input ~ 0
+BTN_MODY
+Text GLabel 8200 3600 0    50   Input ~ 0
+BTN_CL
+Text GLabel 8200 3700 0    50   Input ~ 0
+BTN_CU
+Text GLabel 8200 3800 0    50   Input ~ 0
+BTN_CD
+Text GLabel 8200 3900 0    50   Input ~ 0
+BTN_A
+Text GLabel 8200 4000 0    50   Input ~ 0
+BTN_CR
+Text GLabel 8200 4200 0    50   Input ~ 0
+BTN_B
+Text GLabel 8200 4300 0    50   Input ~ 0
+BTN_X
+Text GLabel 8200 4400 0    50   Input ~ 0
+BTN_Z
+Text GLabel 8200 4500 0    50   Input ~ 0
+BTN_UP
+Text GLabel 8200 4600 0    50   Input ~ 0
+BTN_R
+Text GLabel 8200 4700 0    50   Input ~ 0
+BTN_Y
+Text GLabel 8200 4800 0    50   Input ~ 0
+BTN_LS
+Text GLabel 8200 4900 0    50   Input ~ 0
+BTN_MS
 $EndSCHEMATC
