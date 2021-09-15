@@ -1,0 +1,207 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x06 J1
+U 1 1 61454C07
+P 4950 2850
+F 0 "J1" H 5030 2842 50  0000 L CNN
+F 1 "Conn_01x06" H 5030 2751 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4950 2850 50  0001 C CNN
+F 3 "~" H 4950 2850 50  0001 C CNN
+	1    4950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 61456BE9
+P 2850 2600
+F 0 "SW1" H 2850 2885 50  0000 C CNN
+F 1 "SW_Push" H 2850 2794 50  0000 C CNN
+F 2 "mx+choc_socket:MX+Choc_socket" H 2850 2800 50  0001 C CNN
+F 3 "~" H 2850 2800 50  0001 C CNN
+	1    2850 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 61456F63
+P 2850 3150
+F 0 "SW2" H 2850 3435 50  0000 C CNN
+F 1 "SW_Push" H 2850 3344 50  0000 C CNN
+F 2 "mx+choc_socket:MX+Choc_socket" H 2850 3350 50  0001 C CNN
+F 3 "~" H 2850 3350 50  0001 C CNN
+	1    2850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D1
+U 1 1 614575D7
+P 3600 3850
+F 0 "D1" H 3850 4000 50  0000 L CNN
+F 1 "WS2812B" H 3850 3750 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3650 3550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3700 3475 50  0001 L TNN
+	1    3600 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 61458086
+P 4150 4000
+F 0 "C1" H 4265 4046 50  0000 L CNN
+F 1 "C" H 4265 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4188 3850 50  0001 C CNN
+F 3 "~" H 4150 4000 50  0001 C CNN
+	1    4150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 61458A33
+P 3050 2600
+F 0 "#PWR0101" H 3050 2350 50  0001 C CNN
+F 1 "GND" H 3055 2427 50  0000 C CNN
+F 2 "" H 3050 2600 50  0001 C CNN
+F 3 "" H 3050 2600 50  0001 C CNN
+	1    3050 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 61459040
+P 3050 3150
+F 0 "#PWR0102" H 3050 2900 50  0001 C CNN
+F 1 "GND" H 3055 2977 50  0000 C CNN
+F 2 "" H 3050 3150 50  0001 C CNN
+F 3 "" H 3050 3150 50  0001 C CNN
+	1    3050 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 61459571
+P 4000 4250
+F 0 "#PWR0103" H 4000 4000 50  0001 C CNN
+F 1 "GND" H 4005 4077 50  0000 C CNN
+F 2 "" H 4000 4250 50  0001 C CNN
+F 3 "" H 4000 4250 50  0001 C CNN
+	1    4000 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4250 4000 4150
+Wire Wire Line
+	4000 4150 3600 4150
+Connection ~ 4000 4150
+$Comp
+L power:+5V #PWR0104
+U 1 1 6145A0C9
+P 4000 3450
+F 0 "#PWR0104" H 4000 3300 50  0001 C CNN
+F 1 "+5V" H 4015 3623 50  0000 C CNN
+F 2 "" H 4000 3450 50  0001 C CNN
+F 3 "" H 4000 3450 50  0001 C CNN
+	1    4000 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3450 4000 3550
+Wire Wire Line
+	4000 3550 3600 3550
+Text GLabel 4750 2750 0    50   Input ~ 0
+LED_IN
+Text GLabel 4750 3050 0    50   Input ~ 0
+LED_OUT
+Text GLabel 4750 2850 0    50   Input ~ 0
+BTN_MODX
+Text GLabel 4750 2950 0    50   Input ~ 0
+BTN_MODY
+$Comp
+L power:+5V #PWR0105
+U 1 1 6145B1C8
+P 4750 2650
+F 0 "#PWR0105" H 4750 2500 50  0001 C CNN
+F 1 "+5V" H 4765 2823 50  0000 C CNN
+F 2 "" H 4750 2650 50  0001 C CNN
+F 3 "" H 4750 2650 50  0001 C CNN
+	1    4750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 6145B3F8
+P 4750 3150
+F 0 "#PWR0106" H 4750 2900 50  0001 C CNN
+F 1 "GND" H 4755 2977 50  0000 C CNN
+F 2 "" H 4750 3150 50  0001 C CNN
+F 3 "" H 4750 3150 50  0001 C CNN
+	1    4750 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 3300 3850 0    50   Input ~ 0
+LED_IN
+Text GLabel 2650 2600 0    50   Input ~ 0
+BTN_MODX
+Text GLabel 2650 3150 0    50   Input ~ 0
+BTN_MODY
+$Comp
+L LED:WS2812B D2
+U 1 1 61460276
+P 4600 3850
+F 0 "D2" H 4850 4000 50  0000 L CNN
+F 1 "WS2812B" H 4850 3750 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4650 3550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4700 3475 50  0001 L TNN
+	1    4600 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4150 4000 4150
+Wire Wire Line
+	4000 3550 4150 3550
+Wire Wire Line
+	4150 3550 4150 3850
+Connection ~ 4000 3550
+Wire Wire Line
+	3900 3850 4300 3850
+Wire Wire Line
+	4600 4150 4150 4150
+Connection ~ 4150 4150
+Wire Wire Line
+	4600 3550 4150 3550
+Connection ~ 4150 3550
+$Comp
+L Device:C C2
+U 1 1 6146448A
+P 5450 4000
+F 0 "C2" H 5565 4046 50  0000 L CNN
+F 1 "C" H 5565 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5488 3850 50  0001 C CNN
+F 3 "~" H 5450 4000 50  0001 C CNN
+	1    5450 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4900 3850 2    50   Input ~ 0
+LED_OUT
+Wire Wire Line
+	5450 4150 4600 4150
+Connection ~ 4600 4150
+Wire Wire Line
+	5450 3850 5450 3550
+Wire Wire Line
+	5450 3550 4600 3550
+Connection ~ 4600 3550
+$EndSCHEMATC
