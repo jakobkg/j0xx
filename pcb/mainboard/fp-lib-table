@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name Outlines)(type KiCad)(uri ${KIPRJMOD}/../pcb_outlines.pretty)(options "")(descr ""))
-)
