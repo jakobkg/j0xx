@@ -1,14 +1,21 @@
 # j0xx
 A controller inspired by the Frame1 and Smashbox controllers
-![Image of the controller](https://user-images.githubusercontent.com/25484353/149900049-03ee4420-25d9-4ab3-87d4-51d5c58f526d.png)
+![image of the controller](https://user-images.githubusercontent.com/25484353/150205665-923a9e05-9ea2-481d-b5ce-9b712b06efa1.png)
+
 
 ## Case
 ### BOM
  - 36 M2 screws, countersunk head recommended
+   - 28x 10mm
+   - 8x 5mm
  - 18 M2 threaded spacers
+   - 18x 10mm
  - 35 pieces of wire, stranded or solid core
 
-### Build notes
+## PCBs
+The PCB files in this repository are all made using KiCad 6, and may not work properly in earlier versions. Most files are only plain PCBs, but the "main board" files also hold part numbers and information needed to place an order including assembly through JLCPCB.
+
+## Build notes
 ***Due to height constraints, surface mounted LEDs can not be used along with low profile Choc switches in this iteration of the design***
 
 The controller case is designed to be made out of cut sheets of material, such as laser cut wood/acrylic or metal.
